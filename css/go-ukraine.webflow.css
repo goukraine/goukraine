@@ -1418,6 +1418,16 @@ label {
   box-shadow: 0 0 0 4px #96acb1;
 }
 
+.image_404 {
+  position: absolute;
+  left: auto;
+  top: auto;
+  right: 27px;
+  bottom: auto;
+  z-index: -1;
+  width: 500px;
+}
+
 @media screen and (max-width: 991px) {
   h1 {
     font-size: 32px;
@@ -1898,6 +1908,13 @@ label {
     -ms-flex-item-align: stretch;
     -ms-grid-row-align: stretch;
     align-self: stretch;
+  }
+  .image_404 {
+    position: static;
+    width: auto;
+    height: 198px;
+    margin-top: 18px;
+    margin-bottom: 36px;
   }
 }
 
