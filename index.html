@@ -1,24 +1,22 @@
 <!DOCTYPE html>
-<!--  This site was created in Webflow. http://www.webflow.com  -->
-<!--  Last Published: Tue May 05 2020 10:39:06 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="5eabe2f4b6d3c723ac46deed" data-wf-site="5eabe2f4b6d3c77d5346deec">
 <head>
   <meta charset="utf-8">
-  <title>Тайтл цієї сторінки для Google (~55 букв)</title>
-  <meta content="Мета дескріпшн цієї сторінки для Google (155-300 букв)" name="description">
-  <meta content="Тайтл цієї сторінки для Facebook та інших" property="og:title">
-  <meta content="Мета дескріпшн цієї сторінки для Facebook та інших" property="og:description">
-  <meta content="link on the image for facebook 1200x630" property="og:image">
-  <meta content="Тайтл цієї сторінки для Facebook та інших" property="twitter:title">
-  <meta content="Мета дескріпшн цієї сторінки для Facebook та інших" property="twitter:description">
-  <meta content="link on the image for facebook 1200x630" property="twitter:image">
+  <title>Куди поїхати в Україні на вихідні | Куда поехать в Украине на выходные</title>
+  <meta content="Подорожі Україною на авто — оберіть куди поїхати на вихідні та які пам'ятки України подивитись | Путешествия по Украине на машине — выберите куда поехать на выходные и какие достопримечательности Украины посмотреть" name="description">
+  <meta content="Куди поїхати в Україні на вихідні" property="og:title">
+  <meta content="Подорожі Україною на авто — оберіть куди поїхати на вихідні та які пам'ятки України подивитись" property="og:description">
+  <meta content="images/og-image.png" property="og:image">
+  <meta content="Куди поїхати в Україні на вихідні" property="twitter:title">
+  <meta content="Подорожі Україною на авто — оберіть куди поїхати на вихідні та які пам'ятки України подивитись" property="twitter:description">
+  <meta content="images/og-image.png" property="twitter:image">
   <meta property="og:type" content="website">
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
-  <link href="css/go-ukraine.webflow.css" rel="stylesheet" type="text/css">
+  <link href="css/style.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js" type="text/javascript"></script>
   <script type="text/javascript">WebFont.load({  google: {    families: ["Roboto:regular,500,700:cyrillic,latin"]  }});</script>
   <!-- [if lt IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js" type="text/javascript"></script><![endif] -->
@@ -30,129 +28,137 @@
   <header class="header">
     <div class="container">
       <div class="logo">
-        <h2 class="logo__text">Go</h2><img src="images/logo_glyph.svg" alt="альт текст, котрий може бути прочитанний" class="logo__glyph">
+        <h2 class="logo__text">Go</h2><img src="images/logo_glyph.svg" alt="Go Ukraine" class="logo__glyph">
         <h2 class="logo__text">Ukraine</h2>
       </div>
     </div>
   </header>
   <div class="container page_home">
     <div class="content_home">
-      <h1 class="h1_home">Маршрути автомобільних подорожей Україною</h1>
+      <h1 class="h1_home">Подорожі Україною — оберіть куди поїхати на вихідні</h1>
       <div class="content_home__region_form">
-        <div class="region_form__label">Обери область початку подорожі</div>
+        <div class="region_form__label">Ваш регіон початку подорожі</div>
         <div class="region_form__content">
-          <a href="#" class="region_form__region_dropdown w-inline-block">
-            <div class="region_dropdown__text">Київська</div><img src="images/Down.svg" alt="альт текст до зображення, може бути прочитанним" class="icon_field"></a><a href="kyivska.html" class="button_primary region_form__button w-button">Показати маршрути</a></div>
+          <a href="#" class="region_form__region_dropdown">
+            <div class="region_dropdown__text">Київ</div>
+            <img src="images/Down.svg" class="icon_field"></a>
+            <a href="куди-поїхати-з-києва.html" class="button_primary region_form__button">Показати маршрути</a>
+        </div>
         <div class="region_form__dropdown">
           <div class="dropwdown__dropdown_list">
-            <a data-w-id="853f7a01-ca8f-3f41-4a37-62f63b88037e" href="#" class="dropdown_list__button_text w-inline-block">
-              <div class="button_text_icon__content"><img src="images/Back.svg" width="16" alt="альт текст до зображення, може бути прочитанним" class="icon_button region_form">
+            <a data-w-id="853f7a01-ca8f-3f41-4a37-62f63b88037e" href="#" class="dropdown_list__button_text">
+              <div class="button_text_icon__content"><img src="images/Back.svg" width="16" class="icon_button region_form">
                 <div>Назад</div>
               </div>
             </a>
             <div class="dropdown_list__column">
-              <a href="kyivska.html" class="dropdown_list__link w-inline-block">
-                <div>Вінницька</div>
+              <a href="куди-поїхати-з-вінниці.html" class="dropdown_list__link">
+                <div>Вінниця</div>
               </a>
-              <a href="kyivska.html" class="dropdown_list__link w-inline-block">
-                <div>Волинська</div>
+              <a href="куди-поїхати-з-дніпра.html" class="dropdown_list__link">
+                <div>Дніпро</div>
               </a>
-              <a href="kyivska.html" class="dropdown_list__link w-inline-block">
-                <div>Дніпропетровська</div>
+              <a href="куди-поїхати-з-житомира.html" class="dropdown_list__link">
+                <div>Житомир</div>
               </a>
-              <a href="kyivska.html" class="dropdown_list__link w-inline-block">
-                <div>Донецька</div>
+              <a href="куди-поїхати-з-запоріжжя.html" class="dropdown_list__link">
+                <div>Запоріжжя</div>
               </a>
-              <a href="kyivska.html" class="dropdown_list__link w-inline-block">
-                <div>Житомирська</div>
-              </a>
-            </div>
-            <div class="dropdown_list__column">
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Закарпатська</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Запорізька</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Івано-Франківська</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Київська</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Кіровоградська</div>
+              <a href="куди-поїхати-з-івано-франківська.html" class="dropdown_list__link">
+                <div>Івано-Франківськ</div>
               </a>
             </div>
             <div class="dropdown_list__column">
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Луганська</div>
+              <a href="куди-поїхати-з-києва.html" class="dropdown_list__link">
+                <div>Київ</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Львівська</div>
+              <a href="куди-поїхати-з-краматорська.html" class="dropdown_list__link">
+                <div>Краматорськ</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Миколаївська</div>
+              <a href="куди-поїхати-з-кропивницького.html" class="dropdown_list__link">
+                <div>Кропивницький</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Одеська</div>
+              <a href="куди-поїхати-з-луцька.html" class="dropdown_list__link">
+                <div>Луцьк</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Полтавська</div>
-              </a>
-            </div>
-            <div class="dropdown_list__column">
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Рівненська</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Сумська</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Тернопільська</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Харківська</div>
-              </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Херсонська</div>
+              <a href="куди-поїхати-зі-львова" class="dropdown_list__link">
+                <div>Львів</div>
               </a>
             </div>
             <div class="dropdown_list__column">
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Хмельницька</div>
+              <a href="куди-поїхати-з-миколаєва.html" class="dropdown_list__link">
+                <div>Миколаїв</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Черкаська</div>
+              <a href="куди-поїхати-з-одеси.html" class="dropdown_list__link">
+                <div>Одеса</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Чернівецька</div>
+              <a href="куди-поїхати-з-полтави.html" class="dropdown_list__link">
+                <div>Полтава</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
-                <div>Чернігівська</div>
+              <a href="куди-поїхати-з-рівного.html" class="dropdown_list__link">
+                <div>Рівне</div>
               </a>
-              <a href="#" class="dropdown_list__link w-inline-block">
+              <a href="куди-поїхати-з-сєвєродонецька" class="dropdown_list__link">
+                <div>Сєвєродонецьк</div>
+              </a>
+            </div>
+            <div class="dropdown_list__column">
+              <a href="куди-поїхати-з-сум.html" class="dropdown_list__link">
+                <div>Суми</div>
+              </a>
+              <a href="куди-поїхати-з-тернополя.html" class="dropdown_list__link">
+                <div>Тернопіль</div>
+              </a>
+              <a href="куди-поїхати-з-ужгороду.html" class="dropdown_list__link">
+                <div>Ужгород</div>
+              </a>
+              <a href="куди-поїхати-з-харківа.html" class="dropdown_list__link">
+                <div>Харків</div>
+              </a>
+              <a href="куди-поїхати-з-херсона.html" class="dropdown_list__link">
+                <div>Херсон</div>
+              </a>
+            </div>
+            <div class="dropdown_list__column">
+              <a href="куди-поїхати-з-хмельницького.html" class="dropdown_list__link">
+                <div>Хмельницький</div>
+              </a>
+              <a href="куди-поїхати-з-черкас.html" class="dropdown_list__link">
+                <div>Черкаси</div>
+              </a>
+              <a href="куди-поїхати-з-чернівців.html" class="dropdown_list__link">
+                <div>Чернівці</div>
+              </a>
+              <a href="куди-поїхати-з-чернігова.html" class="dropdown_list__link">
+                <div>Чернігів</div>
+              </a>
+              <a href="куди-поїхати-з-криму.html" class="dropdown_list__link">
                 <div>АР Крим</div>
               </a>
             </div>
           </div>
         </div>
       </div>
-    </div><img src="images/Main-page.svg" alt="альт текст, котрий може бути прочитанний" class="image_home"></div>
+    </div><img src="images/Main-page.svg" alt="Путешествия по Украине — узнайте куда поехать" class="image_home"></div>
   <footer class="footer">
     <div class="container container_footer">
       <div class="text_small copyright">(c) 2020 GoUkraine.net. Всі права захищено.</div>
-      <div class="footer__buttons"><a href="mailto:goukrainenet@gmail.com?subject=goukraine.net" class="button_text w-button">Написати нам</a><a href="#" data-w-id="4d869bbc-3ca0-fb29-2f16-a174073e7d1a" class="button_text_english w-button">Switch to English</a></div>
+      <div class="footer__buttons">
+        <a href="mailto:goukrainenet@gmail.com?subject=goukraine.net" class="button_text">Написати нам</a>
+        <a href="#" data-w-id="4d869bbc-3ca0-fb29-2f16-a174073e7d1a" class="button_text_english">Switch to English</a>
+      </div>
     </div>
   </footer>
   <div class="modals_container">
     <div class="modal_english">
-      <a data-w-id="1fc077dc-6d86-3d79-068e-6ba4c60c8579" href="#" class="modal__button_text_icon w-inline-block">
-        <div class="button_text_icon__content modal_close"><img src="images/Cancel.svg" alt="альт текст до зображення, може бути прочитанним" class="icon_modal"></div>
+      <a data-w-id="1fc077dc-6d86-3d79-068e-6ba4c60c8579" href="#" class="modal__button_text_icon">
+        <div class="button_text_icon__content modal_close"><img src="images/Cancel.svg" alt="Закрити вікно" class="icon_modal"></div>
       </a>
       <div class="modal__image"></div>
       <h2 class="modal__header">We’re still working on a translation</h2>
-      <div class="modal__text">An English version of our website will be available soon. In the meantime, you can use the embedded translation tool in Google Chrome, or use any other translation tool you like.</div><a href="#" data-w-id="1fc077dc-6d86-3d79-068e-6ba4c60c8581" class="modal__button_primary w-button">Alright</a></div>
+      <div class="modal__text">An English version of our website will be available soon. In the meantime, you can use the embedded translation tool in Google Chrome, or use any other translation tool you like.</div>
+      <a href="#" data-w-id="1fc077dc-6d86-3d79-068e-6ba4c60c8581" class="modal__button_primary">Alright</a>
+    </div>
   </div>
   <script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js?site=5eabe2f4b6d3c77d5346deec" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script src="js/webflow.js" type="text/javascript"></script>
