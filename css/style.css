@@ -566,11 +566,9 @@ label {
 }
 
 .details__text {
-  position: relative;
-  overflow: hidden;
-  width: 100%;
   color: #41585e;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
 }
 
