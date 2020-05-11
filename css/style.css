@@ -565,24 +565,13 @@ label {
   flex: 1;
 }
 
-.details__summary {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  margin-bottom: 27px;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 .details__text {
   position: relative;
   overflow: hidden;
-  height: 54px;
+  width: 100%;
   color: #41585e;
-  white-space: normal;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
 
 .summary__summary_item {
@@ -605,11 +594,11 @@ label {
   margin-right: 0px;
 }
 
-.summary__title {
-  margin-right: 36px;
+.details__title {
+  margin-bottom: 13.5px;
 }
 
-.summary__numbers {
+.details__summary {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -622,6 +611,7 @@ label {
   -webkit-flex: 0 auto;
   -ms-flex: 0 auto;
   flex: 0 auto;
+  margin-bottom: 13.5px;
 }
 
 .icon_summary {
@@ -898,6 +888,10 @@ label {
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.summary_item__text {
+  color: #5B7B84;
 }
 
 .modal {
@@ -1675,29 +1669,12 @@ label {
   .card_route__details {
     margin-right: 0px;
     margin-left: 0px;
-  }
-  .details__summary {
-    margin-top: 18px;
-    margin-bottom: 18px;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-    -ms-flex-direction: column;
-    flex-direction: column;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    padding-bottom: 18px;
   }
   .summary__summary_item.last {
     margin-right: 0px;
   }
-  .summary__title {
-    margin-right: 0px;
+  .details__title {
     margin-bottom: 18px;
   }
   .banner_route__image {
@@ -1767,6 +1744,9 @@ label {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+  }
+  .details__summary {
+    margin-bottom: 18px;
   }
   .modal {
     width: 100%;
