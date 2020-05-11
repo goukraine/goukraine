@@ -566,6 +566,7 @@ label {
 }
 
 .details__text {
+  max-width: 534px;
   color: #41585e;
   white-space: nowrap;
   overflow: hidden;
