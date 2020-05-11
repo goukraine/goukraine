@@ -1158,20 +1158,9 @@ label {
   align-items: stretch;
 }
 
-.details__text_hide {
-  position: absolute;
-  left: auto;
-  top: auto;
-  right: 0%;
-  bottom: 0%;
-  width: 50%;
-  height: 27px;
-  background-image: -webkit-gradient(linear, left top, right top, from(hsla(0, 0%, 100%, 0)), color-stop(80%, #fff));
-  background-image: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #fff 80%);
-}
-
 .route_details__column_6 {
   display: block;
+  min-height: 74vh;
   width: 50%;
   padding-right: 13.5px;
   -webkit-box-orient: vertical;
