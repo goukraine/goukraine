@@ -554,6 +554,40 @@ label {
   -ms-flex-align: center;
   align-items: center;
   border-radius: 4px;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+}
+
+.card_route__image.kyivska-rus {
+  background-image: url('../images/places/kyivska-rus@sm.jpg');
+}
+.card_route__image.mezhihyrya {
+  background-image: url('../images/places/mezhyhirya@sm.jpg');
+}
+.card_route__image.chernihiv {
+  background-image: url('../images/places/chernihiv@sm.jpg');
+}
+.card_route__image.sophia-park {
+  background-image: url('../images/places/sophia-park@sm.jpg');
+}
+.card_route__image.odesa {
+  background-image: url('../images/places/odesa@sm.jpg');
+}
+.card_route__image.kamyanets-podilska-fortress {
+  background-image: url('../images/places/kamyanets-podilska-fortress@sm.jpg');
+}
+.card_route__image.lviv {
+  background-image: url('../images/places/lviv@sm.jpg');
+}
+.card_route__image.svyatogirska-lavra {
+  background-image: url('../images/places/svyatogirska-lavra@sm.jpg');
+}
+.card_route__image.synevyr {
+  background-image: url('../images/places/synevyr@sm.jpg');
+}
+.card_route__image.rozovoe-ozero {
+  background-image: url('../images/places/rozovoe-ozero@sm.jpg');
 }
 
 .card_route__details {
@@ -1185,12 +1219,6 @@ label {
   margin-left: 13.5px;
   border-radius: 4px;
   box-shadow: 0 4px 27px 0 rgba(31, 61, 58, 0.09);
-}
-
-.card_route__image_source {
-  display: block;
-  width: 100%;
-  object-fit: cover;
 }
 
 .card_route__image_overlay {
