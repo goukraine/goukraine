@@ -578,7 +578,7 @@ label {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 27px;
+  margin-right: 36px;
   -webkit-box-align: center;
   -webkit-align-items: center;
   -ms-flex-align: center;
@@ -1655,10 +1655,7 @@ label {
   .card_route__details {
     margin-right: 0px;
     margin-left: 0px;
-    padding-bottom: 18px;
-  }
-  .summary__summary_item.last {
-    margin-right: 0px;
+    padding-top: 18px;
   }
   .details__title {
     margin-bottom: 18px;
