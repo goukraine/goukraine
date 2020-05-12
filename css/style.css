@@ -1114,8 +1114,7 @@ label {
 }
 
 .wrapper {
-  margin-top: 108px;
-  padding-top: 54px;
+  padding-top: 162px;
   padding-bottom: 54px;
   background-color: #eff3f5;
 }
@@ -1160,7 +1159,6 @@ label {
 
 .route_details__column_6 {
   display: block;
-  min-height: 76vh;
   width: 50%;
   padding-right: 13.5px;
   -webkit-box-orient: vertical;
@@ -1824,7 +1822,6 @@ label {
     margin-bottom: 36px;
   }
   .wrapper {
-    margin-top: 0px;
     padding-top: 36px;
   }
   .routes__column_9 {
