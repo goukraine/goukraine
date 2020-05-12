@@ -719,7 +719,7 @@ label {
 }
 
 .card_details__line {
-  position: static;
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -744,18 +744,19 @@ label {
   background-repeat: no-repeat;
 }
 
-.card_details__line.start {
-  background-image: url('../images/card_details__line_hide.svg'), url('../images/timeline.svg');
-  background-position: 50% 0%, 50% 50%;
-  background-size: 100% 50%, 2px;
-  background-repeat: no-repeat, no-repeat;
-}
-
 .card_details__line.finish {
   background-image: url('../images/card_details__line_hide.svg'), url('../images/timeline.svg');
   background-position: 50% 100%, 50% 50%;
   background-size: 100% 50%, 2px;
   background-repeat: no-repeat, no-repeat;
+}
+
+.line__hide {
+  position: absolute;
+  top: 0px;
+  background-color: #eff3f5;
+  width: 27px;
+  height: 50%;
 }
 
 .line__distance-counter {
@@ -854,6 +855,7 @@ label {
 }
 
 .line__point {
+  position: relative;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
