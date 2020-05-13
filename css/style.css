@@ -1720,10 +1720,11 @@ label {
     flex-direction: column;
   }
   .description__image {
-    display: none;
+    display: block;
     width: 100%;
     height: 47vw;
     margin-bottom: 18px;
+    margin-right: 0px;
   }
   .description__image.static {
     display: -webkit-box;
@@ -1739,6 +1740,12 @@ label {
     -webkit-align-items: center;
     -ms-flex-align: center;
     align-items: center;
+  }
+  .card_details__line {
+    width: 72px;
+  }
+  .line__point {
+    padding-right: 22px;
   }
   .route_details__summary {
     display: -webkit-box;
