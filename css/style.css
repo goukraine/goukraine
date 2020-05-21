@@ -589,6 +589,9 @@ label {
 .card_route__image.rozovoe-ozero {
   background-image: url('../images/places/rozovoe-ozero@sm.jpg');
 }
+.card_route__image.sharivskyi-castle {
+  background-image: url('../images/places/sharivskyi-castle@sm.jpg');
+}
 
 .card_route__details {
   margin-right: 27px;
