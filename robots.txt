@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /404.html
+Disallow: /images/
+Allow: /images/places/
+
+Sitemap: https://goukraine.net/sitemap.xml
