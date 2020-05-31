@@ -595,6 +595,9 @@ label {
 .card_route__image.zaporizka-sich {
   background-image: url('../images/places/zaporizka-sich@sm.jpg');
 }
+.card_route__image.oleksandriya {
+  background-image: url('../images/places/oleksandriya@sm.jpg');
+}
 
 .card_route__details {
   margin-right: 27px;
