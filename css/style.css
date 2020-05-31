@@ -1530,6 +1530,16 @@ label {
   .button_text_icon__content.modal_close {
     height: auto;
   }
+  .button_text_icon.header_route_detailed {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
+  .header_routes__button_text_icon {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: auto;
+  }
   .icon_button {
     margin-right: 0px;
   }
